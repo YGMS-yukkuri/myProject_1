@@ -11,3 +11,16 @@ header h1{
     padding: 5%;
     background-color: cornflowerblue;
 }
+main input{
+    width: 30%;
+    height: 30px;
+    font-size: 15px;
+}
+main select{
+    width: auto;
+    height: 30px;
+    font-size: 15px;
+}
+.result h1{
+    font-size: 50px;
+}
