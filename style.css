@@ -7,9 +7,14 @@ header h1{
     font-size: 30px;
 
 }
+main{
+    background-color: pink;
+}
 .mainBox{
     padding: 5%;
     background-color: cornflowerblue;
+    display: flex;
+    justify-content: center;
 }
 main input{
     width: 30%;
@@ -23,4 +28,5 @@ main select{
 }
 .result h1{
     font-size: 50px;
+    text-decoration: underline;
 }
