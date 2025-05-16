@@ -24,7 +24,7 @@ main input{
 main select{
     width: auto;
     height: 30px;
-    font-size: 15px;
+    font-size: 30px;
 }
 .result h1{
     font-size: 50px;
