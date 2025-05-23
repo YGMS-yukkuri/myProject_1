@@ -2,6 +2,10 @@ body{
     padding: 0;
     margin: 0;
 }
+main{
+    display: flex;
+    position: relative;
+}
 header{
     display: flex;
     justify-content: center;
@@ -20,7 +24,7 @@ header h1{
 
 }
 .sisoku{
-    
+    width: 50%;
 }
 .sisokuBox{
     display: flex;
@@ -55,9 +59,20 @@ header h1{
     padding: 0;
 }
 
+.Shinsuu{
+    width: 50%;
+}
+
+
+
 footer{
+    width: 100%;
     display: flex;
     justify-content: center;
     background-color: lightskyblue;
     border-radius: 30px;
+    position: absolute;
+    translate: -50% -50%;
+    bottom: 0;
+    left:50%
 }
