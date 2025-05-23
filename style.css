@@ -1,13 +1,63 @@
+body{
+    padding: 0;
+    margin: 0;
+}
 header{
     display: flex;
     justify-content: center;
+    background-color: black;
 }
 header h1{
     margin: 0;
     font-size: 30px;
+    color: white;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 
 }
-.mainBox{
-    padding: 5%;
+.sisoku{
+    
+}
+.sisokuBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 5% 5%;
     background-color: cornflowerblue;
+    width: 80%;
+    margin: auto;
+    border-radius: 25px;
+}
+.sisokuBox input{
+    margin:1%;
+    height: 40px;
+    font-size: 20px;
+}
+.sisokuBox select{
+    margin: 1%;
+    height: 40px;
+    font-size: 20px;
+}
+.inputBox{
+    display: flex;
+    justify-content: center;
+}
+.result{
+    float: right;
+}
+.result h1{
+    margin: 0;
+    padding: 0;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: lightskyblue;
+    border-radius: 30px;
 }

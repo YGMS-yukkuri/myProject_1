@@ -9,7 +9,7 @@ function getAnswer(){
     const input2 = Number(document.getElementById("input2").value);
     const answer = Keisan(input1,siki,input2);
     console.log(answer);
-    document.getElementById("AnswerBox").textContent = answer;
+    document.getElementById("AnswerBox").textContent = `= ${answer}`;
 }
 function Keisan(value1,siki,value2){
     switch(siki){
