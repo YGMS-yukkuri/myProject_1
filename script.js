@@ -29,9 +29,10 @@ function Keisan(value1,siki,value2){
 }
 
 function get2shin(){
-    const input10 = document.getElementById("shininput10");
-    const input2 = document.getElementById("shininput2");
-    answer = Number(input10.value).toString(2);
-    console.log(answer);
-    input2.textContent = answer;
+    const input10 = document.getElementById("sininput10");
+    const input2 = document.getElementById("sininput2");
+    answer = Number(input10.value);
+    console.log(answer.toString(2));
+    temp = answer.toString(2);
+    input2.value = temp;
 }
