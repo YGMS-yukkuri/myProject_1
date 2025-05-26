@@ -67,7 +67,26 @@ header h1{
 .Shinsuu{
     width: 50%;
 }
-
+.inputbox2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.shin2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    font-size: 20px;
+}
+.shin2 input{
+    width: 75%;
+}
+.shin2 p{
+    font-size: 20px;
+    text-decoration: solid;
+}
 
 
 footer{
