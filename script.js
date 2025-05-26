@@ -27,3 +27,11 @@ function Keisan(value1,siki,value2){
             break;
     }
 }
+
+function get2shin(){
+    const input10 = document.getElementById("10shininput");
+    const input2 = document.getElementById("2shininput");
+    answer = Number(input10.value).toString(2);
+    console.log(answer);
+    input2.textContent = answer;
+}
