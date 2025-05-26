@@ -25,6 +25,9 @@ header h1{
 }
 .sisoku{
     width: 50%;
+    background-color: antiquewhite;
+    border-radius: 5px;
+    padding: 1% 0%;
 }
 .sisokuBox{
     display: flex;
@@ -39,13 +42,15 @@ header h1{
 }
 .sisokuBox input{
     margin:1%;
-    height: 40px;
+    height: 25%;
+    width: 60%;
     font-size: 20px;
 }
 .sisokuBox select{
-    margin: 1%;
-    height: 40px;
-    font-size: 20px;
+    margin:1%;
+    height: 10%;
+    width: 10%;
+    font-size: 25px;
 }
 .inputBox{
     display: flex;
