@@ -4,6 +4,7 @@ body{
 }
 main{
     display: flex;
+    flex-direction: column;
     position: relative;
 }
 header{
@@ -15,6 +16,11 @@ header h1{
     margin: 0;
     font-size: 30px;
     color: white;
+}
+.jodan{
+    display: flex;
+    margin: 0;
+    padding: 0;
 }
 .title{
     display: flex;
@@ -80,13 +86,40 @@ header h1{
     width: 70%;
     font-size: 20px;
 }
+.shin2 button{
+    width: 50%;
+}
 .shin2 input{
     width: 75%;
 }
-.shin2 p{
-    font-size: 20px;
-    text-decoration: solid;
+.line{
+    padding: 0;
+    margin: 0;
+
 }
+.inputbox16{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.shin16{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    font-size: 20px;
+}
+.shin16 button{
+    width: 50%;
+}
+.shin16 input{
+    width: 70%;
+}
+
+
+
+
 
 
 footer{
