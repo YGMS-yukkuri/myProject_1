@@ -36,3 +36,16 @@ function get2shin(){
     temp = answer.toString(2);
     input2.value = temp;
 }
+function get10shin(){
+    const input10 = document.getElementById("sininput10");
+    const input2 = document.getElementById("sininput2");
+    temp = parseInt(input2.value, 2);
+    console.log(temp);
+    if (isNaN(temp)){
+        input10.value = "0";
+    }
+    else{
+        answer = temp.toString(10);    
+        input10.value = answer;
+    }
+}
