@@ -49,3 +49,22 @@ function get10shin(){
         input10.value = answer;
     }
 }
+function get10shin16(){
+    const input10 = document.getElementById("16sininput10");
+    const input16 = document.getElementById("sininput16");
+    temp = parseInt(input16.value, 16);
+    if (isNaN(temp)){
+        input16.value = `${input16.value}は無効です`
+    }
+    else{
+        answer = temp.toString(10);
+        input10.value = answer;
+    }
+}
+function get16shin(){
+    const input10 = document.getElementById("16sininput10");
+    const input16 = document.getElementById("sininput16");
+    temp = parseInt(input10.value, 10);
+    answer = temp.toString(16);
+    input16.value = answer;
+}
