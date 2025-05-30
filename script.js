@@ -65,6 +65,6 @@ function get16shin(){
     const input10 = document.getElementById("16sininput10");
     const input16 = document.getElementById("sininput16");
     temp = parseInt(input10.value, 10);
-    answer = temp.toString(16);
+    answer = temp.toString(16).toUpperCase();
     input16.value = answer;
 }
