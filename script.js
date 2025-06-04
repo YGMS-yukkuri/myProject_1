@@ -15,16 +15,12 @@ function Keisan(value1,siki,value2){
     switch(siki){
         case "pura" :
             return value1 + value2;
-            break;
         case "mai" :
             return value1 - value2;
-            break;
         case "kake" :
             return value1 * value2;
-            break;
         case "wari" :
             return value1 / value2;
-            break;
     }
 }
 
